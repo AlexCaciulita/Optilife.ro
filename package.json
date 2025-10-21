@@ -1,7 +1,7 @@
 {
   "name": "optilife-ro",
   "version": "1.0.0",
-  "description": "OptiLife - Optică mobilă pentru companii",
+  "description": "Better vision. Better focus. Better work. | Workplace Eye Care Solutions",
   "main": "index.html",
   "scripts": {
     "build": "echo 'Static site - no build needed'",
