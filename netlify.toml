@@ -1,5 +1,5 @@
 [build]
-  publish = "."
+  publish = "dist"
   command = "echo 'Static site deployment - no build required'"
 
 [build.environment]
