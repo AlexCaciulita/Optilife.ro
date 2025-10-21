@@ -47,6 +47,25 @@
       .hero,
       #hero {
         padding: 3rem !important;
+        margin: 0;
+        height: auto !important;
+        min-height: auto !important;
+        overflow: visible !important;
+        background-position: center !important;
+        background-repeat: no-repeat !important;
+        background-size: contain !important;
+      }
+
+      .hero-section img,
+      [class*="hero"] img,
+      [class*="Hero"] img,
+      section:first-of-type img,
+      .hero img,
+      #hero img {
+        display: block;
+        width: 100%;
+        height: auto;
+        object-fit: contain;
       }
     </style>
   </head>
