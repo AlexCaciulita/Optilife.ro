@@ -1,0 +1,22 @@
+{
+  "name": "optilife-ro",
+  "version": "1.0.0",
+  "description": "OptiLife - Optică mobilă pentru companii",
+  "main": "index.html",
+  "scripts": {
+    "build": "echo 'Static site - no build needed'",
+    "start": "echo 'Static site - serving index.html'"
+  },
+  "keywords": [
+    "optometry",
+    "mobile",
+    "romania",
+    "eye-care"
+  ],
+  "author": "AlexCaciulita",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AlexCaciulita/Optilife.ro.git"
+  }
+}
