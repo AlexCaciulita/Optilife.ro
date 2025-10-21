@@ -50,7 +50,7 @@
         margin: 0;
         height: auto !important;
         min-height: 100vh !important; /* fill viewport */
-        overflow: visible !important;
+        overflow: hidden !important; /* prevent overlap with next sections */
         background-position: center !important;
         background-repeat: no-repeat !important;
         background-size: contain !important;
@@ -67,10 +67,23 @@
       section:first-of-type img,
       .hero img,
       #hero img {
-        display: block;
-        width: 100%;
-        height: auto;
-        object-fit: contain;
+        position: absolute !important;
+        inset: 0 !important;
+        width: 100% !important;
+        height: 100% !important;
+        object-fit: contain !important; /* show full image */
+        z-index: 0 !important;
+        pointer-events: none !important; /* keep text clickable */
+      }
+
+      .hero-section *:not(img),
+      [class*="hero"] *:not(img),
+      [class*="Hero"] *:not(img),
+      section:first-of-type *:not(img),
+      .hero *:not(img),
+      #hero *:not(img) {
+        position: relative !important;
+        z-index: 1 !important; /* ensure text is above image */
       }
     </style>
   </head>
