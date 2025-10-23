@@ -57,5 +57,6 @@
   </head>
   <body>
     <div id="root"></div>
-  </body>
+  
+<script async id="netlify-rum-container" src="/.netlify/scripts/rum" data-netlify-rum-site-id="75457ee5-46b1-4a63-8e33-7a5a5a9c8acb" data-netlify-deploy-branch="main" data-netlify-deploy-context="production" data-netlify-cwv-token="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzaXRlX2lkIjoiNzU0NTdlZTUtNDZiMS00YTYzLThlMzMtN2E1YTVhOWM4YWNiIiwiYWNjb3VudF9pZCI6IjY4YjljOGRjYzUxODllMmNjOTRhYTE1ZiIsImRlcGxveV9pZCI6IjY4ZjkzNGJhMTAxYmZjMDAwODlhNGMyNSIsImlzc3VlciI6Im5mc2VydmVyIn0.2qWrkfu-0KtkyTxeOatVm_RnMY3H39MdY99_4fqtJsg"></script></body>
 </html>
