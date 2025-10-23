@@ -1,11 +1,24 @@
 {
   "name": "optilife-ro",
   "version": "1.0.0",
-  "description": "Better vision. Better focus. Better work. | Workplace Eye Care Solutions",
-  "main": "index.html",
+  "description": "Better vision. Better focus. Better work. | Workplace Eye Care Solutions",
+  "type": "module",
   "scripts": {
-    "build": "echo 'Static site - no build needed'",
-    "start": "echo 'Static site - serving index.html'"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "start": "vite preview"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.8.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.28",
+    "@types/react-dom": "^18.0.11",
+    "@vitejs/plugin-react": "^3.1.0",
+    "vite": "^4.1.0"
   },
   "keywords": [
     "optometry",
